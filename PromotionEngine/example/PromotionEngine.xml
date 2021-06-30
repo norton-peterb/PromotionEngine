@@ -1,4 +1,4 @@
-<sch:PromotionConfiguration xmlns:sch="http://promotion.engine.org/schema">
+<sch:PromotionRules xmlns:sch="http://promotion.engine.org/schema">
   <skuItem sku="A" price="50"/>
   <skuItem sku="B" price="30"/>
   <skuItem sku="C" price="20"/>
@@ -13,4 +13,4 @@
     <skuQuantity sku="C" quantity="1"/>
     <skuQuantity sku="D" quantity="1"/>
   </promotionItem>
-</sch:PromotionConfiguration>
+</sch:PromotionRules>
