@@ -1,0 +1,16 @@
+<sch:PromotionConfiguration xmlns:sch="http://promotion.engine.org/schema">
+  <skuItem sku="A" price="50"/>
+  <skuItem sku="B" price="30"/>
+  <skuItem sku="C" price="20"/>
+  <skuItem sku="D" price="15"/>
+  <promotionItem price="130">
+    <skuQuantity sku="A" quantity="3"/>
+  </promotionItem>
+  <promotionItem price="45">
+    <skuQuantity sku="B" quantity="2"/>
+  </promotionItem>
+  <promotionItem price="30">
+    <skuQuantity sku="C" quantity="1"/>
+    <skuQuantity sku="D" quantity="1"/>
+  </promotionItem>
+</sch:PromotionConfiguration>
