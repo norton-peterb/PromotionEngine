@@ -17,7 +17,7 @@
         <xs:sequence>
             <xs:element name="skuQuantity" type="SKUQuantity" maxOccurs="unbounded"/>
         </xs:sequence>
-        <xs:attribute name="price" type="xs:string"/>
+        <xs:attribute name="price" type="xs:int"/>
     </xs:complexType>
     <xs:complexType name="SKUQuantity">
         <xs:attribute name="sku" type="xs:string"/>
