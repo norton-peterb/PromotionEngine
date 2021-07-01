@@ -1,0 +1,7 @@
+{
+  "items": [
+    {"sku": "A","quantity": 1},
+    {"sku": "B","quantity": 1},
+    {"sku": "C","quantity": 1}
+  ]
+}
