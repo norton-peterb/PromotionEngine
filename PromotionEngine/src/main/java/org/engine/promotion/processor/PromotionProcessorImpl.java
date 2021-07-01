@@ -5,11 +5,13 @@ import org.engine.promotion.model.OrderItem;
 import org.engine.promotion.schema.PromotionItem;
 import org.engine.promotion.schema.SKUItem;
 import org.engine.promotion.schema.SKUQuantity;
+import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Component
 public class PromotionProcessorImpl implements PromotionProcessor {
 
     private Map<String,Integer> skuPriceMap(List<SKUItem> skuItemList) {
