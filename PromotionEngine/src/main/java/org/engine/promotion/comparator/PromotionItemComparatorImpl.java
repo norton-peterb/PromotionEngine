@@ -2,9 +2,11 @@ package org.engine.promotion.comparator;
 
 import org.engine.promotion.schema.PromotionItem;
 import org.engine.promotion.schema.SKUQuantity;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class PromotionItemComparatorImpl implements PromotionItemComparator {
 
     private boolean compareQuantities(SKUQuantity skuQuantity, List<SKUQuantity> quantityList) {
@@ -22,9 +24,6 @@ public class PromotionItemComparatorImpl implements PromotionItemComparator {
         if(itemA == null && itemB == null) {
             return true;
         } else if(itemA == null || itemB == null) {
-            return false;
-        }
-        if(!(itemA.getPrice().equals(itemB.getPrice()))) {
             return false;
         }
         for(SKUQuantity skuQuantityA : itemA.getSkuQuantity()) {
